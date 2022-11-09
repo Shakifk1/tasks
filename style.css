@@ -1,0 +1,73 @@
+header{
+    height: 100px;
+    margin-bottom: 20px;
+}
+.heading a{
+    float: left;
+    color: black;
+    font-size: 32px;
+    margin: 20px;
+    text-decoration: none;
+    border-top: 2px solid skyblue;
+    border-bottom: 2px solid skyblue;
+}
+.links a{
+    float: right;
+    color: black;
+    font-size: 22px;
+    margin: 2em;
+    text-decoration: none;
+
+}
+a:hover{
+    color: blue;
+}
+
+.lhead{
+    background: linear-gradient(to bottom, rgba(2, 198, 162, 0.8), rgba(2, 198, 162, 0.0));
+    height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.lorm{
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+.flex{
+    display: flex;
+}
+.flex1{
+    width: 50%;
+}
+.sizes{
+    height: 35px;
+    width: 40%;
+    margin: auto;
+}
+#msg{
+    height: 16em;
+    width: 80%;
+    margin: auto;
+}
+.btn-box{
+    text-align: center;
+    margin-top: 40px; 
+    
+}
+#btn{
+
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+#btn:hover{
+    background-color: rgb(231, 53, 53);
+}
