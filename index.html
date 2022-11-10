@@ -27,10 +27,9 @@
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
     <div>
-        <div class="flex">
-            <div class="flex1">
-                <form action="">
-
+        <form action="">
+            <div class="flex">
+                <div class="flex1">
                     <input class="sizes" type="text" placeholder="first name" name="fname" required>
                     <input class="sizes" type="text" placeholder="last name" name="lname" required><br><br>
                     <input class="sizes" type="text" value="Arrival" name="journey">
@@ -39,16 +38,15 @@
                     <input class="sizes" type="number" placeholder="number of rooms" min="0" max="20"><br><br>
                     <input class="sizes" type="number" placeholder="Adult" min="0" max="20">
                     <input class="sizes" type="number" placeholder="Child" min="0" max="20">
-                </form>
+                </div>
+                <div class="flex1 msgbox">
+                    <textarea name="msg" id="msg" placeholder="message"></textarea>
+                </div>
             </div>
-            <div class="flex1 msgbox">
-                <textarea name="msg" id="msg" placeholder="message"></textarea>
+            <div class="btn-box">
+                <input id="btn" type="submit" value="BOOK ROOM ->">
             </div>
-
-        </div>
-        <div class="btn-box">
-            <input id="btn" type="submit" value="BOOK ROOM ->">
-        </div>
+        </form>
     </div>
 </body>
 
